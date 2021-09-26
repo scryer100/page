@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'AdobeHeiti';
+    src: url('../fonts/AdobeHeitiStd-Regular.otf'),
+    url('../fonts/AdobeHeitiStd-Regular.otf'); /* IE9 */
+}
+#Collect > div{
+    margin-top: 40px;
+width: 1300px;
+    font-family: 'AdobeHeiti';
+}
+#Collect .Collect_left p:first-child{
+    color: #827a78;
+    font-size: 30px;
+}
+#Collect .Collect_left p:nth-child(2){
+    color: #cca093;
+    font-size: 70px;
+}
+#Collect .Collect_left p:nth-child(3){
+    color: #827a78;
+    font-size: 25px;
+}
+#Collect .Collect_left> div{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #e9beab;
+    line-height: 50px;
+    text-align: center;
+}
+#Collect .Collect_left > div > a{
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 480px){
+    #Collect{
+        margin-left: 20px;
+        width: 400px;
+        /*background-color: red;*/
+        /*overflow: hidden;*/
+    }
+    #Collect .Collect_left{
+        width: 300px;
+        /*text-align: center;*/
+    }
+    #Collect .Collect_left p{
+        /*text-align: center;*/
+    }
+    #Collect .Collect_left p:nth-child(2)
+    {
+        font-size: 60px;
+    }
+    #Collect .Collect_left p:nth-child(3)
+    {
+        font-size: 18px;
+    }
+    #Collect .Collect_left > div{
+        display: none;
+    }
+    #Collect .Collect_right >img{
+        width: 300px;
+    }
+}

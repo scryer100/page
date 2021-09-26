@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../fonts/MyriadPro-Regular.otf'),
+    url('../fonts/MyriadPro-Regular.otf'); /* IE9 */
+}
+@font-face {
+    font-family: 'mvboli';
+    src: url('../fonts/mvboli.ttf'),
+    url('../fonts/mvboli.ttf'); /* IE9 */
+}
+.RoadMap-line{
+    width: 1000px;
+    height: 1px;
+    background-color: #758594;
+    margin: 100px 0;
+}
+#RoadMap{
+    font-family: MyriadPro;
+    color: #827876;
+    position: relative;
+}
+.ROAD-right{
+    /*margin-right: 50px;*/
+}
+#RoadMap:not(h4){
+    font-size: 10px;
+}
+#RoadMap .Stage-font{
+    font-family: mvboli;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.furnace-img{
+    position: absolute;
+    left: 900px;
+    bottom: 30px;
+}
+.RoadPhone-list{
+    display: none;
+}
+.RoadMap-phone{
+    display: none;
+}
+.furnacePhone-img{
+    display: none;
+}
+/*@media screen and (max-width: 480px*/
+@media screen and (max-width: 480px) {
+    .RoadMap-line{
+        margin: 40px 0;
+    }
+    .RoadPhone-list{
+        margin-left: 20px;
+        width: 300px;
+        /*height: 50px;*/
+        /*background-color: white;*/
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .RoadPhone-list > div{
+        float: left;
+        height: 50px;
+        width: 99px;
+        background-color: white;
+        text-align: center;
+    }
+    .RoadPhone-list >div:first-child{
+        border-radius: 20px 0 0 20px;
+    }
+    .RoadPhone-list > div:last-child{
+        border-radius: 0 20px 20px 0;
+    }
+    .RoadPhone-list a{
+        line-height: 50px;
+        color: #848484;
+        font-family: 等线;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .RoadPhone-list > div:first-child > a{
+        color: #344356;
+    }
+    .furnace-img{
+        position: static;
+    }
+    .RoadMap-img{
+        display: none;
+    }
+    .RoadMap-List,.RoadMap-List2{
+        display: none;
+    }
+    .RoadMap-phone{
+        /*position: absolute;*/
+        display: block;
+        width: 300px;
+        background-color: white;
+        overflow: hidden;
+        margin-left: 20px;
+        position: relative;
+        height: 340px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px gainsboro;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .RoadMap-phone > div{
+        position: absolute;
+        top: 25px;
+    }
+    .RoadMap-phone > div:nth-child(2),.RoadMap-phone > div:last-child{
+        display: none;
+    }
+    #RoadMap{
+        position: relative;
+        margin-bottom: 300px;
+    }
+    #RoadMap .furnacePhone-img{
+        display: block;
+        position: absolute;
+        width: 300px;
+        left: 35px;
+        top: 200px;
+    }
+}

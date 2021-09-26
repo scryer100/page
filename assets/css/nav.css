@@ -1,0 +1,91 @@
+@font-face
+{
+    font-family: bdzyjt;
+    src: url('../fonts/bdzyjt.ttf'),
+    url('../fonts/bdzyjt.ttf'); /* IE9 */
+}
+
+.main-menu .font-list li a{
+    font-family: bdzyjt;
+    color: #636771;
+}
+.main-menu ul li a {
+    color: #1b1b1b;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 50px;
+    /*  text-transform: uppercase; */
+}
+/* update css*/
+.main-menu ul li img{
+    height: 50px;
+}
+.main-menu ul li:hover > a {
+    color: #519f10;
+}
+.main-menu ul li {
+ display: inline-block;
+  list-style: outside none none;
+ /*padding-right: 65px;*/
+  position: relative;
+}
+.main-menu .font-list,.main-menu .icon{
+    /*width: 800px;*/
+}
+.main-menu .font-list li{
+    padding-right: 60px;
+}
+.main-menu .icon li{
+    padding-right: 48px;
+}
+.phone{
+    display: none;
+}
+.digit{
+    display: block;
+    color: white;
+    font-weight: bold;
+    width: 30px;
+    background-color: #aaadb2;
+}
+/*Home .row .pull-left img{*/
+/*    width: 600px;*/
+/*}*/
+#Home .pull-left{
+    font-family: "微软雅黑";
+    color: #636771;
+}
+@media screen and (max-width:480px){
+    .nav .computer{
+        display: none;
+    }
+    .phone{
+        display: block;
+        width: 100%;
+        font-family: "微软雅黑";
+    }
+    .menu-line{
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background: 50% / 100% 100% no-repeat;
+    }
+    .nav .navbar-right{
+        color: white;
+        font-size: 20px;
+    }
+    .nav .navbar-right a{
+        color: white!important;
+    }
+    .nav .navbar-right a:last-child{
+        border: 1px solid white;
+        padding: 5px;
+        border-radius: 10px;
+
+    }
+}
+

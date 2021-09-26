@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'SourceHanSan';
+    src: url("../fonts/SourceHanSansCN-Regular.ttf");
+}
+#Story{
+    font-family: '黑体';
+    /*background-color: #fcf9f7;*/
+
+}
+.Story-title1{
+    font-size: 30px;
+    color: #827876;
+}
+.Story-title2{
+    color: #cca093;
+    font-size: 100px;
+    font-weight: bold;
+}
+.Story-font{
+    line-height: 50px;
+}
+.Story-font .Story-title4{
+    line-height: 30px;
+    color: #aaadb2;
+    font-family: 'SourceHanSan';
+}
+.Story-btn{
+    background-color: #e9beab;
+    height: 60px;
+    width: 250px;
+    border-radius: 50px;
+}
+.Story-btn div{
+    height: 60px;
+    width: 100px;
+    background-color: #cca093;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 20px;
+    transition: width 2s;
+}
+.Story-btn div a{
+    color: white;
+    text-decoration: none;
+}
+.Story-btn div:hover{
+    width: 250px;
+}
+.Story-title3{
+    color: #827876;
+    font-weight: bold;
+    font-size: 20px;
+}
+.book-img img{
+    width: 400px;
+}
+@media screen and (max-width:480px){
+#Story{
+    margin-left: 50px;
+    /*background-color: black;*/
+}
+/*.Story-phone{*/
+/*    margin-top: 30px;*/
+/*    margin-left: 40px;*/
+/*}*/
+.Story-phone{
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+}
+.Story-title3{
+    line-height: 30px;
+}
+    .Story-btn div{
+        width: 300px;
+    }
+#main{
+    margin-left: 50px;
+}
+    .book-img img{
+        margin-left: 0 !important;
+        margin-right: 40px;
+        margin-top: 30px;
+        width: 220px;
+        margin-bottom: 20px;
+    }
+}
